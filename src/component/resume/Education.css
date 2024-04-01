@@ -1,0 +1,13 @@
+.education {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8px;
+}
+
+.eduWrapper {
+    width: 50%;
+    background-color: #F7F9FC;
+    border-radius: 3px;
+    padding: 8px;
+    margin-left: 4px;
+}

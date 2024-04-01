@@ -8,13 +8,20 @@ import Skill from './component/resume/Skill';
 
 function App() {
   return (
-    <div>
-      <Profile/>
-      <Privacy/>
+    <div className='appPage'>
+      <div className='container'>
+        <div className='Header'>
+        <Profile/>
+        <hr/>
+        <Privacy/>
+        </div>
+      </div>
+      <div className='container2'>
       <Project/>
       <Experience/>
       <Education/>
       <Skill/>
+      </div>
     </div>
   );
 }

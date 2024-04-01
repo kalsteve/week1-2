@@ -1,7 +1,8 @@
 import React from 'react';
+import './Skill.css'
 
-function Skill(props) {
-  return <div>
+function Skill() {
+  return <div className='skill'>
     <ul>
         <li>Language : C, C++, JAVA, Kotlin, Python, JavaScript</li>
         <li>Framework & Library : nodejs, Express, spring boot</li>
