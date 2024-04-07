@@ -5,6 +5,7 @@ import Experience from './component/resume/Experience';
 import Education from './component/resume/Education';
 import Project from './component/resume/Project'
 import Skill from './component/resume/Skill';
+import dot from './dot.svg';
 
 function App() {
   return (
@@ -17,10 +18,56 @@ function App() {
         </div>
       </div>
       <div className='container2'>
-      <Project/>
-      <Experience/>
-      <Education/>
-      <Skill/>
+        
+        <div className='content'>
+          <div className='divider'>
+            <div className='divider-dot'>
+              <img src={dot} alt='dot' />
+            </div>
+            <div className='divider-line'/>
+          </div>
+          <div className='section'>
+            <p>Latest projects</p>
+            <Project/>
+          </div>
+        </div>
+        <div className='content'>
+          <div className='divider'>
+            <div className='divider-dot'>
+              <img src={dot} alt='dot' />
+            </div>
+            <div className='divider-line'/>
+          </div>
+          <div className='section'>
+            <p>Experience</p>
+            <Experience/>
+          </div>
+        </div>
+        <div className='content'>
+          <div className='divider'>
+          <div className='divider-dot'>
+              <img src={dot} alt='dot' />
+            </div>
+            <div className='divider-line'/>
+          </div>
+          <div className='section'>
+            <p>Education</p>
+            <Education/>
+          </div>
+        </div>
+        <div className='content'>
+          <div className='divider'>
+          <div className='divider-dot'>
+              <img src={dot} alt='dot' />
+            </div>
+            <div className='divider-line'/>
+          </div>
+          <div className='section'>
+            <p>Skill</p>
+            <Skill/>
+            </div>
+        </div>
+      
       </div>
     </div>
   );

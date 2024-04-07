@@ -5,7 +5,7 @@
     border-radius: 3px;
 }
 .projectTitle {
-    max-width: 346px;
+    max-width: 100%;
     margin-left: 16px;
     padding-top: 12px;
     padding-bottom: 12px;
@@ -17,7 +17,7 @@
     align-items: center; /* 로고와 텍스트를 수평 정렬 */
 }
 .project td {
-    max-width: 358px;
+    max-width: fit-content;
     max-height: fit-content;
 }
 .projectName {
@@ -44,7 +44,6 @@
 
 }
 .projectContents {
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -57,9 +56,7 @@
     max-height: 100%;
     background-color: #F7F9FC;
     margin-right: 4px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    padding-left: 12px;
+    padding: 12px;
     border-radius: 3px;
     background-color: #F7F9FC;
     display: flex; /* flexbox를 사용하여 로고와 텍스트를 나란히 배치 */
@@ -90,8 +87,8 @@
     font-style: bold;
     font-weight: 500;
     line-height: 10px;
-    padding-left: 0px;
-    margin-top: 0px;
+    padding: 0px;
+    margin: 0px;
 }
 
 .projectContent2 li {
@@ -110,7 +107,7 @@
     font-style: bold;
     font-weight: 500;
     line-height: 10px;
-    padding-left: 0px;
+    padding: 0px;
     margin-bottom: 2px;
     margin-top: 0px;
 }
@@ -127,12 +124,11 @@
     border-radius: 3px;
 }
 .techStack {
-    max-width: 346px;
     display: flex;
     flex-direction: row;
     margin-top: 4px;
     margin-left: 16px;
-    padding-left: 12px;
+    padding: 12px;
     font-family: "DM Sans";
     margin-left: 16px;
     background-color: #F7F9FC;
@@ -157,4 +153,7 @@
     width: 24px;
     height: 24px;
     border-radius: 3px;
+}
+.project td {
+    padding: 0px;
 }
